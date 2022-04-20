@@ -6,11 +6,10 @@ import os, json, argparse
 class VisualDic:
 	def __init__(self, resolution, test):
 		file = './utils/Objects/ObjectsDicTTL2.npy'
+		if not os.path.exists('./utils/Objects/'): os.mkdir('./utils/Objects')
 		self.resolution = resolution
 		if not os.path.exists(file):
-			os.mkdir('Objects')
 			np.random.seed(1000)
-
 			# population = "AX!VTabcdefghijklmnopqrstuvwxyz"
 			population = "AESX!-VGNTFU+Babcdefghijklmnopqrstuvwxyz0123456789"
 			self.class_ids = {}
