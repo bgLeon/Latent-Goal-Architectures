@@ -4,7 +4,7 @@ Source code of the paper `In a Nutshell, the Human Asked for This: Latent Goals 
 
 ## Installation instructions
 
-This repository requires [Python3.6](https://www.python.org/) with three libraries: [numpy](http://www.numpy.org/), [tensorflow (V2.3)](https://www.tensorflow.org/), and [gym](https://gym.openai.com/). 
+This repository requires [Python3.6](https://www.python.org/) with three libraries: [numpy](http://www.numpy.org/), [tensorflow (V2.5)](https://www.tensorflow.org/), and [gym](https://gym.openai.com/). 
 
 ## Running example
 
